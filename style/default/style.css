@@ -1,0 +1,285 @@
+body
+{
+    background-image: url("images/background_image2.jpg");
+    background-attachment: fixed;
+}
+.container
+{
+    width: 970px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 7px 7px 7px 7px;
+    box-shadow: 0px 0px 10px 3px white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #3a678d;
+    overflow: hidden;
+}
+.title_header
+{
+    padding: 0px 0px 30px 10px;
+    float: left;
+    word-wrap: break-word;
+    width: 650px;
+    font-family: normal;
+}
+.title_header .title
+{
+    display: block;
+    font-size: 35px;
+    text-shadow: 2px 2px #3a678d;
+    color: #e98a2a;
+    font-family: normal;
+}
+.title_header .subtitle
+{
+    display: block;
+    font-size: 23px;
+    text-shadow: 1px 1px #3a678d;
+    color: #e98a2a;
+}
+a.current
+{
+    background-color: #e98a2a;
+}
+.search_bar form
+{
+    float: right;
+    position: relative;
+    padding: 25px 20px 30px 0px;
+}
+.search_bar form input[type=text]
+{
+    padding: 5px;
+}
+.search_bar form input[type=submit]
+{
+    padding: 5px;
+    background-color: #e98a2a;
+    border: 2px solid #3a678d;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.search_bar form input[type=text]:focus
+{
+    border: 2px solid #3a678d;
+}
+.main_content_container
+{
+    clear: both;
+    margin-top: 5px;
+    border-top: 1px solid #3a678d;
+}
+.side_container
+{
+    margin-top: 20px;
+    float: right;
+    width: 295px;
+}
+.side
+{
+    margin-bottom: 20px;
+}
+.side:last-child
+{
+    margin-bottom: 0px;
+}
+.side .title
+{
+    color: #e98a2a;
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: normal;
+}
+.side .content
+{
+    color: #3a678d;
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+    text-align: justify;
+    font-family: normal;
+}
+.central_container
+{
+    margin-top: 20px;
+    float: left;
+    width: 650px;
+}
+.central
+{
+    margin-bottom: 20px;
+}
+.central:last-child
+{
+    margin-bottom: 10px;
+}
+.central .title a, .central .title
+{
+    font-size: 18px;
+    color: #e98a2a;
+    text-decoration: none;
+    font-family: normal;
+}
+.central .content
+{
+    color: #3a678d;
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 16px;
+    padding-left: 10px;
+    font-family: normal;
+}
+.central .details
+{
+    font-size: 14px;
+    color: #e98a2a;
+    padding-top: 10px;
+    text-align: right;
+    font-family: normal;
+    font-weight: bold;
+}
+.central .title a:hover
+{
+    text-decoration: underline;
+}
+.comment_box
+{
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    padding: 5px;
+    box-shadow: 2px 2px 5px 0px black;
+    width: auto;
+    word-wrap: break-word;
+}
+.comment_box:last-child
+{
+    margin-bottom: 0px;
+}
+.comment_box .from_name
+{
+    display: block;
+    color: #e98a2a;
+    font-size: 15px;
+    font-family: fantasy;
+}
+.comment_box .message
+{
+    display: block;
+    color: #3a678d;
+    font-size: 15px;
+    padding: 7px;
+    font-family: normal;
+}
+.post_comment form input[type=text]
+{
+    padding: 5px;
+}
+.post_comment form input[type=submit]
+{
+    padding: 5px;
+    background-color: #e98a2a;
+    border: 2px solid #3a678d;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    margin-top: 10px;
+}
+.post_comment form input[type=text]:focus, .post_comment form textarea:focus
+{
+    border: 2px solid #3a678d;
+}
+.post_comment textarea
+{
+    margin-top: 10px;
+    display: block;
+    resize: none;
+    width: 99%;
+    height: 200px;
+}
+.comment_notice
+{
+    color: #e98a2a;
+    margin-bottom: 10px;
+}
+.comment_box .date
+{
+    float: right;
+    font-family: serif;
+}
+.admin_login_box .admin_login_notice
+{
+    color: #e98a2a;
+    display: block;
+    margin-bottom: 10px;
+}
+.admin_login_box form input[type=text], .admin_login_box form input[type=password]
+{
+    padding: 5px;
+}
+.admin_login_box input[type=text]
+{
+    margin-bottom: 5px;
+}
+.admin_login_box form input[type=submit]
+{
+    padding: 5px;
+    background-color: #e98a2a;
+    border: 2px solid #3a678d;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+.admin_login_box form input[type=text]:focus, .admin_login_box form input[type=password]:focus
+{
+    border: 2px solid #3a678d;
+}
+.sf-menu
+{
+    text-transform: uppercase;
+}
+.check_validation
+{
+    text-align: center;
+    margin: 0 auto;
+}
+.auth_session
+{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.auth_session a
+{
+    text-decoration: none;
+    color: white;
+}
+.auth_session a:hover
+{
+    text-decoration: underline;
+}
+.delimiter
+{
+    color: white;
+}
+.welcome_admin
+{
+    color: #e98a2a;
+}
+.view_all
+{	
+	text-align: center;
+	color: #3a678d;
+	margin: 10px;
+}
+.view_all a
+{
+	text-decoration: none;
+	color: #3a678d;
+}
+.view_all a:hover
+{
+	text-decoration: underline;
+	color: #3a678d;
+}

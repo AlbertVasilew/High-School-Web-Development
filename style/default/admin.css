@@ -1,0 +1,88 @@
+body
+{
+    background-color: white;
+    margin: inherit;
+}
+.container
+{
+    background-color: whitesmoke;
+    position: absolute;
+    box-shadow: 0px 0px 7px 0px black inset;
+    top: 0px; bottom: 0px;
+    left: 0px; right: 0px;
+    width: 580px;
+    height: 300px;
+    margin: auto;
+}
+.header_title
+{
+    font-size: 21px;
+    font-family: arial;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+.header_subtitle
+{
+    font-size: 15px;
+    font-family: normal;
+    text-align: center;
+    margin-bottom: 20px;
+}
+table[class='admin_form']
+{
+    text-align: center;
+    margin: 30px auto 0px auto;
+}
+
+/* Session confirmed! Logged in...*/
+.top_header_notes
+{
+    padding: 7px;
+    background-color: whitesmoke;
+    color: #3a678d;
+    border-bottom: 1px solid silver;
+    margin-bottom: 1px;
+}
+.options
+{
+    float: right;
+}
+.options a
+{
+    color: #3a678d;
+}
+.selected_object_container
+{
+    clear: both;
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px solid silver;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    box-shadow: 4px 4px 6px 0px #333333;
+}
+.selected_object_title
+{
+    font-size: 17px;
+    font-family: fantasy;
+}
+.selected_object_description
+{
+    font-size: 16px;
+    font-family: arial;
+    font-style: oblique;
+}
+.input_table
+{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.input_table tr td
+{
+    font-family: monospace;
+    font-size: 15px;
+}
